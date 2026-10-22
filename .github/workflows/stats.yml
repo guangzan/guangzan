@@ -58,6 +58,9 @@ jobs:
           token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: "true"
 
+      - name: Apply monochrome palette to language cards
+        run: node .github/scripts/monochrome-langs.mjs
+
       - name: Generate contribution activity cards
         run: node .github/scripts/generate-activity.mjs
         env:
