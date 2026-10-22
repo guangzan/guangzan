@@ -49,7 +49,6 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
       <p><sub>An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes.</sub></p>
       <p><img src="https://img.shields.io/github/stars/guangzan/things?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="things stars"> <code>Rust</code></p>
     </td>
-    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
