@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v6
 
       # STATS_TOKEN is a PAT with `repo` and `read:user` scopes so private
-      # contributions and private languages can be counted. Without it the
+      # repository activity and languages can be counted. Without it the
       # workflow still succeeds, but only public data is included.
       - name: Generate stats card (light)
         uses: stats-organization/github-readme-stats-action@v2
