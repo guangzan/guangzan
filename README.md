@@ -20,20 +20,15 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
   <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/"><img src="https://img.shields.io/badge/-Mini%20Program-2B2B2B?style=flat-square&logo=wechat&logoColor=F5F5F3" alt="Mini Program"></a>
 </p>
 
-## Selected Work
+## Projects
 
-### Agent
-
-- **[DeepSeek Lane](https://github.com/guangzan/deepseek-lane)** — A local proxy that connects Cursor to DeepSeek thinking models and fixes the `reasoning_content` round-trip. <br><sub><code>TypeScript</code> · <img src="https://img.shields.io/github/stars/guangzan/deepseek-lane?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="DeepSeek Lane stars"></sub>
-- **[Monorail](https://github.com/guangzan/monorail)** — Local-first Agent Skills that carry a change from alignment to spec, slice, and shipped code. <br><sub><code>Shell</code> · <img src="https://img.shields.io/github/stars/guangzan/monorail?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Monorail stars"></sub>
-- **[things](https://github.com/guangzan/things)** — An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes. <br><sub><code>Rust</code> · <img src="https://img.shields.io/github/stars/guangzan/things?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="things stars"></sub>
-
-### Developer Tooling & App
-
-- **[Tona](https://github.com/guangzan/tona)** — A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins. <br><sub><code>TypeScript</code> · <img src="https://img.shields.io/github/stars/guangzan/tona?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Tona stars"></sub>
-- **[Rselectron](https://github.com/guangzan/rselectron)** — An Rspack-first Electron development and build tool with a fast feedback loop. <br><sub><code>TypeScript</code> · <img src="https://img.shields.io/github/stars/guangzan/rselectron?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Rselectron stars"></sub>
-- **[Tinytab](https://github.com/guangzan/tinytab)** — A browser new-tab extension built with Vue 3, TypeScript, Vite, and Naive UI. <br><sub><code>Vue</code> · <img src="https://img.shields.io/github/stars/guangzan/tinytab?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Tinytab stars"></sub>
-- **[termbio](https://github.com/guangzan/termbio)** — A CLI tool that prints a personal information card in the terminal. <br><sub><code>JavaScript</code> · <img src="https://img.shields.io/github/stars/guangzan/termbio?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="termbio stars"></sub>
+- **[DeepSeek Lane](https://github.com/guangzan/deepseek-lane)** — A local proxy that connects Cursor to DeepSeek thinking models and fixes the `reasoning_content` round-trip.
+- **[Monorail](https://github.com/guangzan/monorail)** — Local-first Agent Skills that carry a change from alignment to spec, slice, and shipped code.
+- **[things](https://github.com/guangzan/things)** — An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes.
+- **[Tona](https://github.com/guangzan/tona)** — A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins.
+- **[Rselectron](https://github.com/guangzan/rselectron)** — An Rspack-first Electron development and build tool with a fast feedback loop.
+- **[Tinytab](https://github.com/guangzan/tinytab)** — A browser new-tab extension built with Vue 3, TypeScript, Vite, and Naive UI.
+- **[termbio](https://github.com/guangzan/termbio)** — A CLI tool that prints a personal information card in the terminal.
 
 ## Writing
 
