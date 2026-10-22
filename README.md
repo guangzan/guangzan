@@ -44,7 +44,7 @@ Notes on agents, developer tooling, and the modern web. The latest posts are syn
 
 ## Stats
 
-<p align="center">
+<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg">
