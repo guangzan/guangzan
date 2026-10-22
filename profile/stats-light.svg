@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Zane&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 348, Total Commits  : 5856, Total PRs: 32, Total Issues: 28, Contributed to (last year): 8</desc>
+        <desc id="descId">Total Stars Earned: 348, Total Commits  : 5859, Total PRs: 32, Total Issues: 28, Contributed to (last year): 8</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 84.44947642798664;
+        stroke-dashoffset: 84.44797414342672;
       }
     }
   
