@@ -22,7 +22,7 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
 
 ## Projects
 
-- **[DeepSeek Lane](https://github.com/guangzan/deepseek-lane)** — A local proxy that connects Cursor to DeepSeek thinking models and fixes the `reasoning_content` round-trip.
+- **[DeepSeek Lane](https://github.com/guangzan/deepseek-lane)** — A local proxy that connects Cursor to DeepSeek thinking models.
 - **[Monorail](https://github.com/guangzan/monorail)** — Local-first Agent Skills that carry a change from alignment to spec, slice, and shipped code.
 - **[things](https://github.com/guangzan/things)** — An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes.
 - **[Tona](https://github.com/guangzan/tona)** — A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins.
