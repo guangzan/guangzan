@@ -61,12 +61,6 @@ jobs:
       - name: Apply monochrome palette to language cards
         run: node .github/scripts/monochrome-langs.mjs
 
-      - name: Generate contribution activity cards
-        run: node .github/scripts/generate-activity.mjs
-        env:
-          GH_USERNAME: ${{ github.repository_owner }}
-          STATS_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-
       - name: Commit cards
         run: |
           git add --all profile

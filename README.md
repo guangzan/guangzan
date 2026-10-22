@@ -108,11 +108,3 @@ Notes on agents, developer tooling, and the modern web. The latest posts are syn
     <img src="./profile/top-langs-light.svg" alt="Top languages" width="41%">
   </picture>
 </p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./profile/activity-light.svg">
-    <img src="./profile/activity-light.svg" alt="Contribution activity" width="92%">
-  </picture>
-</p>
