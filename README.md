@@ -8,13 +8,7 @@
 
 Full-stack engineer building tools for agents and the web. I work across TypeScript, Rust, and the browser, and most of my open source lives at the intersection of agent workflows, developer tooling, and product interfaces.
 
-## Focus
-
-- **Agents** - skills, proxies, and MCP tooling that make coding agents more useful.
-- **Developer tooling** - build systems, Electron and Rspack workflows, and CLIs.
-- **Web** - component systems, theme frameworks, and end-to-end product work.
-
-<p align="center">
+<p>
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/-TypeScript-2B2B2B?style=flat-square&logo=typescript&logoColor=F5F5F3" alt="TypeScript"></a>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/-React-2B2B2B?style=flat-square&logo=react&logoColor=F5F5F3" alt="React"></a>
   <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/-Vue-2B2B2B?style=flat-square&logo=vuedotjs&logoColor=F5F5F3" alt="Vue"></a>
@@ -30,56 +24,16 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
 
 ### Agent
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/guangzan/deepseek-lane">DeepSeek Lane</a></h4>
-      <p><sub>A local proxy that connects Cursor to DeepSeek thinking models and fixes the <code>reasoning_content</code> round-trip.</sub></p>
-      <p><img src="https://img.shields.io/github/stars/guangzan/deepseek-lane?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="DeepSeek Lane stars"> <code>TypeScript</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/guangzan/monorail">Monorail</a></h4>
-      <p><sub>Local-first Agent Skills that carry a change from alignment to spec, slice, and shipped code.</sub></p>
-      <p><img src="https://img.shields.io/github/stars/guangzan/monorail?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Monorail stars"> <code>Shell</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/guangzan/things">things</a></h4>
-      <p><sub>An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes.</sub></p>
-      <p><img src="https://img.shields.io/github/stars/guangzan/things?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="things stars"> <code>Rust</code></p>
-    </td>
-  </tr>
-</table>
+- **[DeepSeek Lane](https://github.com/guangzan/deepseek-lane)** — A local proxy that connects Cursor to DeepSeek thinking models and fixes the `reasoning_content` round-trip. <br><sub><code>TypeScript</code> · <img src="https://img.shields.io/github/stars/guangzan/deepseek-lane?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="DeepSeek Lane stars"></sub>
+- **[Monorail](https://github.com/guangzan/monorail)** — Local-first Agent Skills that carry a change from alignment to spec, slice, and shipped code. <br><sub><code>Shell</code> · <img src="https://img.shields.io/github/stars/guangzan/monorail?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Monorail stars"></sub>
+- **[things](https://github.com/guangzan/things)** — An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes. <br><sub><code>Rust</code> · <img src="https://img.shields.io/github/stars/guangzan/things?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="things stars"></sub>
 
 ### Developer Tooling & App
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/guangzan/tona">Tona</a></h4>
-      <p><sub>A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins.</sub></p>
-      <p><img src="https://img.shields.io/github/stars/guangzan/tona?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Tona stars"> <code>TypeScript</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/guangzan/rselectron">Rselectron</a></h4>
-      <p><sub>An Rspack-first Electron development and build tool with a fast feedback loop.</sub></p>
-      <p><img src="https://img.shields.io/github/stars/guangzan/rselectron?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Rselectron stars"> <code>TypeScript</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/guangzan/tinytab">Tinytab</a></h4>
-      <p><sub>A browser new-tab extension built with Vue 3, TypeScript, Vite, and Naive UI.</sub></p>
-      <p><img src="https://img.shields.io/github/stars/guangzan/tinytab?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Tinytab stars"> <code>Vue</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/guangzan/termbio">termbio</a></h4>
-      <p><sub>A CLI tool that prints a personal information card in the terminal.</sub></p>
-      <p><img src="https://img.shields.io/github/stars/guangzan/termbio?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="termbio stars"> <code>JavaScript</code></p>
-    </td>
-  </tr>
-</table>
+- **[Tona](https://github.com/guangzan/tona)** — A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins. <br><sub><code>TypeScript</code> · <img src="https://img.shields.io/github/stars/guangzan/tona?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Tona stars"></sub>
+- **[Rselectron](https://github.com/guangzan/rselectron)** — An Rspack-first Electron development and build tool with a fast feedback loop. <br><sub><code>TypeScript</code> · <img src="https://img.shields.io/github/stars/guangzan/rselectron?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Rselectron stars"></sub>
+- **[Tinytab](https://github.com/guangzan/tinytab)** — A browser new-tab extension built with Vue 3, TypeScript, Vite, and Naive UI. <br><sub><code>Vue</code> · <img src="https://img.shields.io/github/stars/guangzan/tinytab?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="Tinytab stars"></sub>
+- **[termbio](https://github.com/guangzan/termbio)** — A CLI tool that prints a personal information card in the terminal. <br><sub><code>JavaScript</code> · <img src="https://img.shields.io/github/stars/guangzan/termbio?style=flat-square&label=stars&labelColor=111111&color=E8E8E4" alt="termbio stars"></sub>
 
 ## Writing
 

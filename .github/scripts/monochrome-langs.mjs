@@ -1,6 +1,9 @@
 import { readFile, writeFile } from "node:fs/promises";
 
-const files = ["profile/top-langs-light.svg", "profile/top-langs-dark.svg"];
+const variants = [
+  ["light", "profile/stats-light.svg", "profile/top-langs-light.svg"],
+  ["dark", "profile/stats-dark.svg", "profile/top-langs-dark.svg"],
+];
 const themeColors = new Set([
   "FAFAF7",
   "0D1117",
@@ -33,15 +36,32 @@ const grayscale = (hex) => {
   return `#${channel}${channel}${channel}`;
 };
 
-for (const file of files) {
-  const svg = await readFile(file, "utf8");
-  const monochrome = svg.replace(
+const rootSize = (svg) => {
+  const match = svg.match(
+    /<svg\s+width="([\d.]+)"\s+height="([\d.]+)"\s+viewBox="0 0 ([\d.]+) ([\d.]+)"/,
+  );
+
+  if (!match) throw new Error("Could not read SVG root dimensions");
+  return { width: match[1], height: match[2], viewBoxWidth: match[3], viewBoxHeight: match[4] };
+};
+
+for (const [variant, statsFile, file] of variants) {
+  const [svg, statsSvg] = await Promise.all([
+    readFile(file, "utf8"),
+    readFile(statsFile, "utf8"),
+  ]);
+  const targetHeight = rootSize(statsSvg).height;
+  const normalized = svg.replace(
+    /(<svg\s+width="[\d.]+"\s+height=")[\d.]+("\s+viewBox="0 0 [\d.]+ )[\d.]+(")/,
+    (_, before, middle, after) => `${before}${targetHeight}${middle}${targetHeight}${after}`,
+  );
+  const monochrome = normalized.replace(
     /(fill|stroke)="(#[0-9a-fA-F]{6})"/g,
     (_, attribute, color) => `${attribute}="${grayscale(color)}"`,
   );
 
   if (monochrome !== svg) {
     await writeFile(file, monochrome);
-    console.log(`Monochromed ${file}`);
+    console.log(`Monochromed ${file} (${variant}, height ${targetHeight})`);
   }
 }
