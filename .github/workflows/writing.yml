@@ -1,0 +1,39 @@
+name: Update writing
+
+on:
+  schedule:
+    # Monthly, first day 03:15 UTC (11:15 Asia/Shanghai).
+    - cron: "15 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-writing
+  cancel-in-progress: false
+
+jobs:
+  update-writing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Sync latest posts from CNBlogs
+        run: node .github/scripts/update-writing.mjs
+
+      - name: Commit README
+        run: |
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No writing changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: sync latest writing"
+          git push

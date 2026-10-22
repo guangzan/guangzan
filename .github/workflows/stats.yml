@@ -1,0 +1,77 @@
+name: Update stats cards
+
+on:
+  schedule:
+    # Weekly, Monday 03:00 UTC (11:00 Asia/Shanghai).
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: false
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      # STATS_TOKEN is a PAT with `repo` and `read:user` scopes so private
+      # contributions and private languages can be counted. Without it the
+      # workflow still succeeds, but only public data is included.
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=guangzan&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&bg_color=FAFAF7&title_color=111111&text_color=111111&icon_color=111111"
+          path: profile/stats-light.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=guangzan&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=F5F5F3&text_color=C9D1D9&icon_color=F5F5F3"
+          path: profile/stats-dark.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=guangzan&layout=compact&langs_count=8&hide_border=true&bg_color=FAFAF7&title_color=111111&text_color=111111"
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=guangzan&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=F5F5F3&text_color=C9D1D9"
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Generate contribution activity cards
+        run: node .github/scripts/generate-activity.mjs
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git add --all profile
+          if git diff --cached --quiet; then
+            echo "No card changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update stats cards"
+          git push

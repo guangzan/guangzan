@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Zane - Full-stack engineer building tools for agents and the web">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#111111" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" fill="#FAFAF7"/>
+  <rect width="1200" height="260" fill="url(#grid)"/>
+
+  <line x1="64" y1="208" x2="1136" y2="208" stroke="#111111" stroke-opacity="0.32" stroke-width="1"/>
+  <g stroke="#111111" stroke-opacity="0.5" stroke-width="1">
+    <line x1="64" y1="202" x2="64" y2="214"/>
+    <line x1="172" y1="206" x2="172" y2="210"/>
+    <line x1="280" y1="206" x2="280" y2="210"/>
+    <line x1="388" y1="206" x2="388" y2="210"/>
+    <line x1="496" y1="202" x2="496" y2="214"/>
+    <line x1="604" y1="206" x2="604" y2="210"/>
+    <line x1="712" y1="206" x2="712" y2="210"/>
+    <line x1="820" y1="206" x2="820" y2="210"/>
+    <line x1="928" y1="202" x2="928" y2="214"/>
+    <line x1="1036" y1="206" x2="1036" y2="210"/>
+    <line x1="1136" y1="202" x2="1136" y2="214"/>
+  </g>
+
+  <text x="64" y="96" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="66" letter-spacing="16">ZANE</text>
+  <text x="66" y="136" fill="#111111" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="14" letter-spacing="3.4">FULL-STACK ENGINEER</text>
+  <text x="64" y="180" fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic">Building tools for agents and the web.</text>
+
+  <text x="64" y="238" fill="#111111" fill-opacity="0.62" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.4">AGENTS / DEVELOPER TOOLING / WEB</text>
+  <text x="1136" y="238" fill="#111111" fill-opacity="0.62" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.4" text-anchor="end">PROFILE / 2026</text>
+</svg>
