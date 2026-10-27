@@ -28,6 +28,7 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
 - **[Tona](https://github.com/guangzan/tona)** — A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins.
 - **[Rselectron](https://github.com/guangzan/rselectron)** — An Rspack-first Electron development and build tool with a fast feedback loop.
 - **[Tinytab](https://github.com/guangzan/tinytab)** — A browser new-tab extension built with Vue 3, TypeScript, Vite, and Naive UI.
+- **[Winter is Coming](https://github.com/guangzan/winteriscoming)** — A Zed port of John Papa's Winter is Coming (Dark Blue) theme.
 - **[termbio](https://github.com/guangzan/termbio)** — A CLI tool that prints a personal information card in the terminal.
 
 ## Writing
