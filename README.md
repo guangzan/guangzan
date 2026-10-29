@@ -22,7 +22,7 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
 
 ## Projects
 
-- **[Lexlight](https://github.com/guangzan/Lexlight)** — A production-oriented syntax-highlighting library for Apple platforms, with one tokenizer for native SwiftUI/AppKit/UIKit and host-owned WKWebView previews.
+- **[Lexlight](https://github.com/guangzan/Lexlight)** — Lexlight is a syntax-highlighting library for Apple platforms.
 - **[things](https://github.com/guangzan/things)** — An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes.
 - **[Winter is Coming](https://github.com/guangzan/winteriscoming)** — A Zed port of John Papa's Winter is Coming (Dark Blue) theme.
 - **[Rselectron](https://github.com/guangzan/rselectron)** — An Rspack-first Electron development and build tool with a fast feedback loop.
