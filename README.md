@@ -22,14 +22,15 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
 
 ## Projects
 
-- **[DeepSeek Lane](https://github.com/guangzan/deepseek-lane)** — A local proxy that connects Cursor to DeepSeek thinking models.
-- **[Monorail](https://github.com/guangzan/monorail)** — Local-first Agent Skills that carry a change from alignment to spec, slice, and shipped code.
+- **[Lexlight](https://github.com/guangzan/Lexlight)** — A production-oriented syntax-highlighting library for Apple platforms, with one tokenizer for native SwiftUI/AppKit/UIKit and host-owned WKWebView previews.
 - **[things](https://github.com/guangzan/things)** — An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes.
-- **[Tona](https://github.com/guangzan/tona)** — A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins.
-- **[Rselectron](https://github.com/guangzan/rselectron)** — An Rspack-first Electron development and build tool with a fast feedback loop.
-- **[Tinytab](https://github.com/guangzan/tinytab)** — A browser new-tab extension built with Vue 3, TypeScript, Vite, and Naive UI.
 - **[Winter is Coming](https://github.com/guangzan/winteriscoming)** — A Zed port of John Papa's Winter is Coming (Dark Blue) theme.
+- **[Rselectron](https://github.com/guangzan/rselectron)** — An Rspack-first Electron development and build tool with a fast feedback loop.
+- **[Monorail](https://github.com/guangzan/monorail)** — Local-first Agent Skills that carry a change from alignment to spec, slice, and shipped code.
+- **[DeepSeek Lane](https://github.com/guangzan/deepseek-lane)** — A local proxy that connects Cursor to DeepSeek thinking models.
 - **[termbio](https://github.com/guangzan/termbio)** — A CLI tool that prints a personal information card in the terminal.
+- **[Tona](https://github.com/guangzan/tona)** — A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins.
+- **[Tinytab](https://github.com/guangzan/tinytab)** — A browser new-tab extension built with Vue 3, TypeScript, Vite, and Naive UI.
 
 ## Writing
 
