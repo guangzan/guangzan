@@ -1,9 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-    <img src="./assets/banner-light.svg" alt="Zane - Full-stack engineer building tools for agents and the web" width="100%">
-  </picture>
+  <img src="./assets/banner.svg" alt="Zane - Full-stack engineer building tools for agents and the web" width="1200px" height="260px">
 </p>
 
 Full-stack engineer building tools for agents and the web. I work across TypeScript, Rust, and the browser, and most of my open source lives at the intersection of agent workflows, developer tooling, and product interfaces.
