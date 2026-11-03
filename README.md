@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Zane - Full-stack engineer building tools for agents and the web" width="1200px" height="260px">
+  <img src="https://raw.githubusercontent.com/guangzan/guangzan/main/assets/banner.svg" alt="Zane - Full-stack engineer building tools for agents and the web" width="1200px" height="260px">
 </p>
 
 Full-stack engineer building tools for agents and the web. I work across TypeScript, Rust, and the browser, and most of my open source lives at the intersection of agent workflows, developer tooling, and product interfaces.
