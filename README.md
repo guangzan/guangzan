@@ -18,6 +18,7 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
 
 ## Projects
 
+- **[Magpie Gateway Admin](https://github.com/guangzan/magpie-gateway-admin)** — Multi-user management for the magpie gateway.
 - **[Lexlight](https://github.com/guangzan/Lexlight)** — Lexlight is a syntax-highlighting library for Apple platforms.
 - **[Things AI](https://github.com/guangzan/things-ai)** — An AI-first Things 3 CLI and MCP server for macOS, with typed queries and safe writes.
 - **[Winter is Coming](https://github.com/guangzan/winteriscoming)** — A Zed port of John Papa's Winter is Coming (Dark Blue) theme.
