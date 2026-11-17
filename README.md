@@ -29,7 +29,9 @@ Full-stack engineer building tools for agents and the web. I work across TypeScr
 - **[Tona](https://github.com/guangzan/tona)** — A modern skin development framework for CNBlogs, with a Vite toolchain, typed options, and 30+ plugins.
 - **[Tinytab](https://github.com/guangzan/tinytab)** — A browser new-tab extension built with Vue 3, TypeScript, Vite, and Naive UI.
 
-Contributed to [4NaNBo1/psd-to-figma](https://github.com/4NaNBo1/psd-to-figma), [alitajs/alita](https://github.com/alitajs/alita), [elysiajs/documentation](https://github.com/elysiajs/documentation), [huacnlee/noop](https://github.com/huacnlee/noop), [kmijs/kmi](https://github.com/kmijs/kmi), [kmijs/swc-plugin-auto-css-modules](https://github.com/kmijs/swc-plugin-auto-css-modules), [makecindy/cindy](https://github.com/makecindy/cindy), [mengxi-ream/read-frog](https://github.com/mengxi-ream/read-frog), [vhr-team/erp_web](https://github.com/vhr-team/erp_web), [vueuse/vueuse](https://github.com/vueuse/vueuse), [windicss/docs-cn](https://github.com/windicss/docs-cn).
+## Contributions
+
+Contributed to [VueUse](https://github.com/vueuse/vueuse), [Read Frog](https://github.com/mengxi-ream/read-frog), [Cindy](https://github.com/makecindy/cindy), [Alita](https://github.com/alitajs/alita), [Noop](https://github.com/huacnlee/noop), [ElysiaJS](https://github.com/elysiajs/documentation), [Kmi](https://github.com/kmijs/kmi), [Windi CSS](https://github.com/windicss/docs-cn), [PSD to Figma](https://github.com/4NaNBo1/psd-to-figma), and [swc-plugin-auto-css-modules](https://github.com/kmijs/swc-plugin-auto-css-modules).
 
 ## Writing
 
